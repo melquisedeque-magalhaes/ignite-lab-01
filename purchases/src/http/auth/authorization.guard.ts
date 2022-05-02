@@ -40,7 +40,7 @@ export class AuthorizationGuard implements CanActivate {
         audience: this.AUTH0_AUDIENCE,
         issuer: this.AUTH0_DOMAIN,
         algorithms: ['RS256'],
-      }),
+      })
     );
 
     try {
